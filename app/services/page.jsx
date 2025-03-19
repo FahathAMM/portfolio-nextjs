@@ -86,6 +86,7 @@ const Services = () => {
 
                 {/* border */}
                 <div className="border-b border-white/20 w-full"></div>
+
               </div>
             );
           })}
