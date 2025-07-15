@@ -9,6 +9,27 @@ import { Typewriter } from 'react-simple-typewriter';
 export default function Home() {
   return (
     <section className="h-full">
+
+
+      {/* <div className="bg-red-500 mobile:bg-red-500 tablet:bg-green-500 laptop:bg-blue-500 desktop:bg-purple-500">
+        Responsive background
+      </div> */}
+
+      {/* <div className="
+          bg-red-500
+          3xl:bg-red-500
+          sm:bg-orange-500
+          md:bg-yellow-500
+          custom:bg-lime-500
+          lg:bg-green-500
+          xl:bg-blue-500
+          2xl:bg-purple-500
+          text-white
+          h-screen flex items-center justify-center text-2xl font-bold
+    ">
+        Resize me to test breakpoints!
+      </div> */}
+
       <div className="mx-6 h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-p xl:pb-24">
           <div className="text-center xl:text-left order-2 xl:order-none">
