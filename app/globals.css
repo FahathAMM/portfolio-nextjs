@@ -9,6 +9,8 @@
   --color-foreground: var(--foreground);
   --color-headerAccent: #03FD9D;
   --color-accents: #03FD9D;
+  --color-skillbg: #232329;
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --color-sidebar-ring: var(--sidebar-ring);
