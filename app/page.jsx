@@ -9,7 +9,7 @@ import { Typewriter } from 'react-simple-typewriter';
 export default function Home() {
   return (
     <section className="h-full">
-      <div className="container mx-auto h-full">
+      <div className="mx-6 h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-p xl:pb-24">
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span>Software Developer</span>
@@ -45,10 +45,9 @@ export default function Home() {
           <div className="order-1 xl:order-none mb-8 xl:mb-6">
             <Photo />
           </div>
-
         </div>
+        <Stats />
       </div>
-      <Stats />
     </section>
   );
 }
